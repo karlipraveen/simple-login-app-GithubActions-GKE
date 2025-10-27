@@ -1,0 +1,9 @@
+apiVersion: networking.gke.io/v1beta1
+kind: FrontendConfig
+metadata:
+  name: login-app-frontendconfig
+  namespace: default
+spec:
+  redirectToHttps:
+    enabled: true
+    responseCodeName: FOUND
