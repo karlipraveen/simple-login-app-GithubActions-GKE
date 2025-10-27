@@ -12,7 +12,7 @@ metadata:
 spec:
   ingressClassName: gce
   rules:
-    - host: login.example.com
+    - host: login.example.com  # Note: Replace login.example.com with your domain and point DNS to your GCP static IP.
       http:
         paths:
           - path: /
