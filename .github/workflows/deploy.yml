@@ -7,10 +7,10 @@ on:
 
 env:
   PROJECT_ID: your-gcp-project-id
-  GKE_CLUSTER: your-gke-cluster
+  GKE_CLUSTER: lab-cluster
   GKE_REGION: asia-south1
   GAR_ZONE: asia-south1
-  GAR_REPO: login-app-repo
+  GAR_REPO: google-samples
   IMAGE_NAME: login-app
   IMAGE_TAG: latest
   NAMESPACE: default
