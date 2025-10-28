@@ -6,10 +6,10 @@ on:
   workflow_dispatch:
 
 env:
-  PROJECT_ID: your-gcp-project-id
+  PROJECT_ID: qwiklabs-gcp-01-f9126037b8c6
   GKE_CLUSTER: lab-cluster
-  GKE_REGION: asia-south1
-  GAR_ZONE: asia-south1
+  GKE_REGION: us-east4
+  GAR_ZONE: us-east4-b
   GAR_REPO: google-samples
   IMAGE_NAME: login-app
   IMAGE_TAG: latest
